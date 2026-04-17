@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# LLMs
+Link: <https://www.myriamtransfer.com/llms.txt>; rel="describedby"
