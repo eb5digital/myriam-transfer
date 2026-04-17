@@ -34,7 +34,12 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
-  generator: 'v0.app'
+  generator: 'v0.app',
+  alternates: {
+    types: {
+      'text/plain': 'https://www.myriamtransfer.com/llms.txt',
+    },
+  },
 }
 
 export const viewport: Viewport = {
